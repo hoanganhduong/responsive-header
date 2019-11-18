@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font: normal 100%/1.3 sans-serif;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: Ubuntu, sans-serif;
 }
 
 *, *::before, *::after {
@@ -26,6 +26,7 @@ header {
   padding: 5px;
   background-color: #18294f;
   text-align: center;
+  color: #fff;
 }
 
 header h1 {
@@ -48,13 +49,14 @@ nav li {
 }
 
 nav a {
+  white-space: nowrap;
   display: block;
   padding: .3em 0 .5em;
   color: #6c8fe0;
   text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
   background-color: #6c8fe0;
   color: #fff;
 }
@@ -70,11 +72,10 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
   }
 
   nav a {
-    padding : 0;
+    padding: 0;
   }
 
 }
@@ -119,6 +120,7 @@ a:hover {
   nav ul {
     align-items: center;
     width: 100%;
+  }
 
 }
 
@@ -127,4 +129,5 @@ a:hover {
   html {
     font-size: 130%;
   }
+
 }
